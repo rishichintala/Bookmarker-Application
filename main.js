@@ -65,8 +65,8 @@ function fetchBookmarks() {
         //The .well class adds a rounded border around an element with a gray background color and some padding
         bookmarkResults.innerHTML += '<div class="well">' +
             '<h3>' + name +
-            ' <a class="btn btn-default" target="_blank" href="' + addhttp(url) + '">Visit</a> ' +
-            ' <a onclick="deleteBookmark(\'' + url + '\')" class="btn btn-danger" href="#">Delete</a> ' +
+            ' <a class="btn btn-primary" target="_blank" href="' + addhttp(url) + '">Visit </a> ' +
+            ' <a onclick="deleteBookmark(\'' + url + '\')" class="btn btn-danger" href="#">Delete </a> ' +
             '</h3>' +
             '</div>';
 
