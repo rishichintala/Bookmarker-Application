@@ -49,8 +49,16 @@ body {
   }
   .jumbotron .btn {
     padding: 14px 24px;
-    font-size: 21px;
+    font-size:15px;
+    font-weight: bolder;
   }
+  .jumbotron .btn:hover{
+    background-color: #777;
+    color: white;
+    font-size: 15px;
+    font-weight:bolder;
+  }
+
   
   /* Supporting marketing content */
   .marketing {
